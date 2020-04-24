@@ -1,0 +1,51 @@
+.container-1{
+    border: 75px solid red;
+    background-color: grey;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.container-2{
+    border: 100px solid forestgreen;
+    background-color: grey;
+    display: flex;
+    padding: 75px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+
+}
+
+.container-3{
+    border: 75px solid red;
+    background-color: grey;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.availability{
+    display: flex;
+    padding: 10px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.cubicle-box{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: red;
+}
